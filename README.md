@@ -2,7 +2,7 @@
 ## 1. Составить регулярное выражение для проверки строки на то, является ли она номером 
 мобильного телефона в зоне РФ (может начинаться с 7 или 8).
 ## 2. Есть два интерфейса:
- public interface IPrimeNumberManager
+### public interface IPrimeNumberManager
  {
  /** Конвертирует массив чисел в поток результатов их проверки на простоту */
  Stream<Boolean> arePrimes(int[] inputInts);
@@ -14,7 +14,8 @@
  Integer maxPrime(Stream<Integer> inputInts);
 }
 
- public interface IPrimeChecker {
+### public interface IPrimeChecker 
+{
  /** Проверяет число на простоту */
  boolean isPrime(int number);
 }
